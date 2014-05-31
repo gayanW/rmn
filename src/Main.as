@@ -43,7 +43,6 @@ package
 		private var fileStream:FileStream;
 		
 		// CONSTANTS
-		private static const COUPONS_PER_FILE:uint = 500;
 		private static const MAX_FILE_SIZE:uint = 310 * 128; /* 1 Kilobit = 128 Byte */ 
 		
 		private var fileIndex:uint = 0;
